@@ -1,0 +1,24 @@
+/* #header h1 ,#header a{
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  } */
+
+  #header, #header center {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row; /* 元々は column でしたが、row に変更 */
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#header h1 ,#header a {
+    font-size: calc(10px + 2vmin);
+}
